@@ -47,3 +47,8 @@ let filteredNumbers = numbers.map(function(num, index) {
 })
 console.log(filteredNumbers);
 
+
+const foo = [1,2,3];
+const baz = foo.map(function bar (n) { return n + 1; });
+console.log(foo,baz);
+
