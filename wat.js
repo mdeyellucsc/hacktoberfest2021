@@ -30,6 +30,8 @@ if (new String('foo') === 'foo') {
 
 if (0) {
     console.log('but why')
+} else {
+    //do nothing
 }
 
 res = [1,2,3,4,5,6,7,8,9,10].filter(value => value % 2 === 0);
@@ -51,4 +53,6 @@ console.log(filteredNumbers);
 const foo = [1,2,3];
 const baz = foo.map(function bar (n) { return n + 1; });
 console.log(foo,baz);
+
+
 
