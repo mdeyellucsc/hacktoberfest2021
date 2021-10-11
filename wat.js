@@ -46,6 +46,9 @@ let filteredNumbers = numbers.map(function(num, index) {
   if (index < 3) {
      return num
   }
+    else{
+        
+    }
 })
 console.log(filteredNumbers);
 
