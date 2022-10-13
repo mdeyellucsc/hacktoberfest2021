@@ -69,3 +69,10 @@ console.log(my_arr)
 res = [1,2,3,4,5,6,7,8,9,10].filter(value => value % 2 === 0);
 console.log(res);
 
+function calculateCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+const my_good_const_var = Math.PI / calculateCircumference(10)
+console.log(my_good_const_var)
+console.log(calculateCircumference(10));
+
