@@ -57,5 +57,12 @@ const foo = [1,2,3];
 const baz = foo.map(function bar (n) { return n + 1; });
 console.log(foo,baz);
 
-
+my_arr =[1,2,3]*10
+console.log(my_arr)
+my_arr =[1,2,3] + [7,8,9]
+console.log(my_arr)
+my_arr =[1,2,3] * [7,8,9]
+console.log(my_arr)
+res = [1,2,3,4,5,6,7,8,9,10].filter(value => value % 2 === 0);
+console.log(res);
 
