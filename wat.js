@@ -76,3 +76,5 @@ const my_good_const_var = Math.PI / calculateCircumference(10)
 console.log(my_good_const_var)
 console.log(calculateCircumference(10));
 
+
+console.log("Welcome to hacktobefest 2023", numbers);
