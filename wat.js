@@ -81,3 +81,10 @@ console.log(calculateCircumference(10));
 
 
 console.log("Welcome to hacktobefest 2023", numbers);
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+let value = toCelsius(77);
+console.log(value)
