@@ -51,6 +51,11 @@ let filteredNumbers = numbers.map(function(num, index) {
             console.log('how does this work');
         }
     } else {
+        if (0 || false || (true && 1)) {
+            console.log('1 is true');
+        } else {
+            console.log('why did this print????');
+        }
 
     }
 })
@@ -83,7 +88,7 @@ console.log(calculateCircumference(10));
 console.log("Welcome to hacktobefest 2023", numbers);
 
 function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
+    return (5 / 9) * (fahrenheit - 32);
 }
 
 let value = toCelsius(77);
