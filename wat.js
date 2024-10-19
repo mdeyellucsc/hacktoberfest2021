@@ -93,3 +93,5 @@ function toCelsius(fahrenheit) {
 
 let value = toCelsius(77);
 console.log(value)
+
+console.log(typeof res)
