@@ -8,6 +8,7 @@
   "author": "matt",
   "license": "BSD",
   "dependencies": {
+    "webpack-cli" : ">=5"
   }
 }
 
