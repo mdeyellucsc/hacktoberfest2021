@@ -1,0 +1,13 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "This is a test app",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "matt",
+  "license": "BSD",
+  "dependencies": {
+  }
+}
+
