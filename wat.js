@@ -94,4 +94,9 @@ function toCelsius(fahrenheit) {
 let value = toCelsius(77);
 console.log(value)
 
+function toFahr(cel) {
+    return ((cel * 9.0 / 5.0) + 32.0);
+}
+console.log(toFahr(toCelsius(77)))
+
 console.log(typeof res)
